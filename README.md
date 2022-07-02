@@ -21,14 +21,21 @@ Demand	d_j where j=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
 6. 6000	7. 4000	8. 7000	9. 4000	10. 4000
 11. 6000	12. 3000	13. 2000	14. 3000	15. 1000
 
-x<sub>11</sub> + x<sub>21</sub> + x<sub>31</sub> + x<sub>41</sub>  ≥ 2000 		x_12+ x_22+ x_32+ x_42  ≥20000 
-x_13+ x_23+ x_33+ x_43  ≥49000 		x_14+ x_24+ x_34+ x_44  ≥18000 
-x_15+ x_25+ x_35+ x_45  ≥16000 		x_16+ x_26+ x_36+ x_46  ≥6000 
-x_17+ x_27+ x_37+ x_47  ≥4000 		x_18+ x_28+ x_38+ x_48  ≥7000 
-x_19+ x_29+ x_39+ x_49  ≥4000 		x_110+ x_210+ x_310+ x_410  ≥4000
-x_111+ x_211+ x_311+ x_411  ≥6000	x_112+ x_212+ x_312+ x_412  ≥3000 
-x_113+ x_213+ x_313+ x_413  ≥2000	x_114+ x_214+ x_314+ x_414  ≥3000
-x_115+ x_215+ x_315+ x_415  ≥1000 
+x<sub>11</sub> + x<sub>21</sub> + x<sub>31</sub> + x<sub>41</sub>  ≥ 2000 		
+x<sub>12</sub> + x<sub>22</sub> + x<sub>32</sub> + x<sub>42</sub>  ≥20000 
+x<sub>13</sub> + x<sub>23</sub> + x<sub>33</sub> + x<sub>43</sub>  ≥49000 		
+x<sub>14</sub> + x<sub>24</sub> + x<sub>34</sub> + x<sub>44</sub>  ≥18000 
+x<sub>15</sub> + x<sub>25</sub> + x<sub>35</sub> + x<sub>45</sub>  ≥16000 		
+x<sub>16</sub> + x<sub>26</sub> + x<sub>36</sub> + x<sub>46</sub>  ≥6000 
+x<sub>17</sub> + x<sub>27</sub> + x<sub>37</sub> + x<sub>47</sub>  ≥4000 		
+x<sub>18</sub> + x<sub>28</sub> + x<sub>38</sub> + x<sub>48</sub>  ≥7000 
+x<sub>19</sub> + x<sub>29</sub> + x<sub>39</sub> + x<sub>49</sub>  ≥4000 		
+x<sub>110</sub> + x<sub>210</sub> + x<sub>310</sub> + x<sub>410</sub>  ≥4000
+x<sub>111</sub> + x<sub>211</sub> + x<sub>311</sub> + x<sub>411</sub>  ≥6000	
+x<sub>112</sub> + x<sub>212</sub> + x<sub>312</sub> + x<sub>412</sub>  ≥3000 
+x<sub>113</sub> + x<sub>213</sub> + x<sub>313</sub> + x<sub>413</sub>  ≥2000	
+x<sub>114</sub> + x<sub>214</sub> + x<sub>314</sub> + x<sub>414</sub>  ≥3000
+x<sub>115</sub> + x<sub>215</sub> + x<sub>315</sub> + x<sub>415</sub>  ≥1000 
 <br /> <br />
 
 Supply	s_i where i=1,2,3,4
