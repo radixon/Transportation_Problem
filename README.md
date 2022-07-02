@@ -2,7 +2,7 @@
 
 East Food company has 4 warehouses that are in Savannah, Charleston, Columbus, and Jacksonville.  The company ships goods from these warehouses to the nearby cities.  The table 4 shows the distances between warehouses and cities, in miles.  Table 5 shows the quantities that warehouse cities supply.  Table 6 shows the demand in cities. <br /> <br />
 
-##Variables
+## Variables
 
 Suppliers	i=1,2,3,4
   1. Savannah	&emsp;	2. Charleston	&emsp;	3. Columbus	&emsp;	4. Jacksonville
