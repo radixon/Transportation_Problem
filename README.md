@@ -71,18 +71,18 @@ c<sub>115</sub>=69 	&emsp; c<sub>215</sub>=166	&emsp; c<sub>315</sub>=210	&emsp;
 
 ## Formulation
 
-Min z = 173x<sub>11</sub> + 121x<sub>12</sub> + 249x<sub>13</sub> + 366x<sub>14</sub> + 166x<sub>15</sub> + <br />
-        187x<sub>16</sub> + 179x<sub>17</sub> + 259x<sub>18</sub> + 31x<sub>19</sub> + 55x<sub>110</sub> + <br />
-        100x<sub>111</sub> + 126x<sub>112</sub> + 124x<sub>113</sub> + 10x<sub>114</sub> + 69x<sub>115</sub> + <br />
-        271x<sub>21</sub> + 169x<sub>22</sub> + 299x<sub>23</sub> + 416x<sub>24</sub> + 263x<sub>25</sub> + <br />     
-        285x<sub>26</sub> + 136x<sub>27</sub> + 213x<sub>28</sub> + 98x<sub>29</sub> + 131x<sub>210</sub> + <br />
-        26x<sub>211</sub> + 134x<sub>212</sub> + 222x<sub>213</sub> + 107x<sub>214</sub> + 166x<sub>215</sub> + <br />
-        126x<sub>31</sub> + 247x<sub>32</sub> + 108x<sub>33</sub> + 221x<sub>34</sub> + 98x<sub>35</sub> + <br />
-        174x<sub>36</sub> + 394x<sub>37</sub> + 253x<sub>38</sub> + 278x<sub>39</sub> + 207x<sub>310</sub> + <br />
-        339x<sub>311</sub> + 270x<sub>312</sub> + 199x<sub>313</sub> + 240x<sub>314</sub> + 210x<sub>315</sub> + <br />
-        166x<sub>41</sub> + 256x<sub>42</sub> + 346x<sub>43</sub> + 463x<sub>44</sub> + 270x<sub>45</sub> + <br />
-        121x<sub>46</sub> + 310x<sub>47</sub> + 380x<sub>48</sub> + 171x<sub>49</sub> + 175x<sub>410</sub> + <br />
-        231x<sub>411</sub> + 257x<sub>412</sub> + 77x<sub>413</sub> + 132x<sub>414</sub> + 101x<sub>415</sub> <br />
+Min z = 173x<sub>11</sub> + 121x<sub>12</sub> + 249x<sub>13</sub> + 366x<sub>14</sub> + 166x<sub>15</sub> +<br />
+        187x<sub>16</sub> + 179x<sub>17</sub> + 259x<sub>18</sub> + 31x<sub>19</sub> + 55x<sub>110</sub> +<br />
+        100x<sub>111</sub> + 126x<sub>112</sub> + 124x<sub>113</sub> + 10x<sub>114</sub> + 69x<sub>115</sub> +<br />
+        271x<sub>21</sub> + 169x<sub>22</sub> + 299x<sub>23</sub> + 416x<sub>24</sub> + 263x<sub>25</sub> +<br />     
+        285x<sub>26</sub> + 136x<sub>27</sub> + 213x<sub>28</sub> + 98x<sub>29</sub> + 131x<sub>210</sub> +<br />
+        26x<sub>211</sub> + 134x<sub>212</sub> + 222x<sub>213</sub> + 107x<sub>214</sub> + 166x<sub>215</sub> +<br />
+        126x<sub>31</sub> + 247x<sub>32</sub> + 108x<sub>33</sub> + 221x<sub>34</sub> + 98x<sub>35</sub> +<br />
+        174x<sub>36</sub> + 394x<sub>37</sub> + 253x<sub>38</sub> + 278x<sub>39</sub> + 207x<sub>310</sub> +<br />
+        339x<sub>311</sub> + 270x<sub>312</sub> + 199x<sub>313</sub> + 240x<sub>314</sub> + 210x<sub>315</sub> +<br />
+        166x<sub>41</sub> + 256x<sub>42</sub> + 346x<sub>43</sub> + 463x<sub>44</sub> + 270x<sub>45</sub> +<br />
+        121x<sub>46</sub> + 310x<sub>47</sub> + 380x<sub>48</sub> + 171x<sub>49</sub> + 175x<sub>410</sub> +<br />
+        231x<sub>411</sub> + 257x<sub>412</sub> + 77x<sub>413</sub> + 132x<sub>414</sub> + 101x<sub>415</sub><br />
 
 s.t.
 x<sub>11</sub> + x<sub>12</sub> + x<sub>13</sub> + x<sub>14</sub> + x<sub>15</sub> + x<sub>16</sub> + x<sub>17</sub> + x<sub>18</sub> + x<sub>19</sub> + x<sub>110</sub> + x<sub>111</sub> + x<sub>112</sub> + x<sub>113</sub> + x<sub>114</sub> + x<sub>115</sub>  ≤200000 <br />
