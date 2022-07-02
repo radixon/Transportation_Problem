@@ -84,7 +84,7 @@ Min z = 173x<sub>11</sub> + 121x<sub>12</sub> + 249x<sub>13</sub> + 366x<sub>14<
         121x<sub>46</sub> + 310x<sub>47</sub> + 380x<sub>48</sub> + 171x<sub>49</sub> + 175x<sub>410</sub> +
         231x<sub>411</sub> + 257x<sub>412</sub> + 77x<sub>413</sub> + 132x<sub>414</sub> + 101x<sub>415</sub><br />
 
-s.t.
+s.t. <br /> <br />
 x<sub>11</sub> + x<sub>12</sub> + x<sub>13</sub> + x<sub>14</sub> + x<sub>15</sub> + x<sub>16</sub> + x<sub>17</sub> + x<sub>18</sub> + x<sub>19</sub> + x<sub>110</sub> + x<sub>111</sub> + x<sub>112</sub> + x<sub>113</sub> + x<sub>114</sub> + x<sub>115</sub>  ≤200000 <br />
 x<sub>21</sub> + x<sub>22</sub> + x<sub>23</sub> + x<sub>24</sub> + x<sub>25</sub> + x<sub>26</sub> + x<sub>27</sub> + x<sub>28</sub> + x<sub>29</sub> + x<sub>210</sub> + x<sub>211</sub> + x<sub>212</sub> + x<sub>213</sub> + x<sub>214</sub> + x<sub>215</sub>  ≤100000 <br />
 x<sub>31</sub> +x<sub>32</sub> + x<sub>33</sub> + x<sub>34</sub> + x<sub>35</sub> + x<sub>36</sub> + x<sub>37</sub> + x<sub>38</sub> + x<sub>39</sub> + x<sub>310</sub> + x<sub>311</sub> + x<sub>312</sub> + x<sub>313</sub> + x<sub>314</sub> + x<sub>315</sub>  ≤50000 <br />
