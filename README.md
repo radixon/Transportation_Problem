@@ -5,21 +5,21 @@ East Food company has 4 warehouses that are in Savannah, Charleston, Columbus, a
 ##Variables
 
 Suppliers	i=1,2,3,4
-1. Savannah		2. Charleston		3. Columbus		4. Jacksonville
+1. Savannah	&emsp;	2. Charleston	&emsp;	3. Columbus	&emsp;	4. Jacksonville
 
 Retailers	j=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
-1. Tifton		2. Augusta		3. Atlanta		4. Chattanooga
-5. Macon		6. Valdosta		7. Florence		8. Greenville
-9. Hilton Head	10. Statesboro	11. Summerville	12. Aikens
-13. Waycross	14. Pooler		15. Jessup
+1. Tifton	&emsp;	2. Augusta	&emsp;	3. Atlanta	&emsp;	4. Chattanooga
+5. Macon	&emsp;	6. Valdosta	&emsp;	7. Florence	&emsp;	8. Greenville
+9. Hilton Head	&emsp; 10. Statesboro	&emsp; 11. Summerville	&emsp; 12. Aikens
+13. Waycross	&emsp; 14. Pooler		&emsp; 15. Jessup
 
 <br /> <br />
 ## Constraints
 
 Demand	d_j where j=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
-1. 2000	2. 20000	3. 49000	4. 18000	5. 16000
-6. 6000	7. 4000	8. 7000	9. 4000	10. 4000
-11. 6000	12. 3000	13. 2000	14. 3000	15. 1000
+1. 2000	&emsp; 2. 20000	&emsp; 3. 49000	&emsp; 4. 18000	&emsp; 5. 16000
+6. 6000	&emsp; 7. 4000	&emsp; 8. 7000	&emsp; 9. 4000	&emsp; 10. 4000
+11. 6000	&emsp; 12. 3000	&emsp; 13. 2000	&emsp; 14. 3000	&emsp; 15. 1000
 
 x<sub>11</sub> + x<sub>21</sub> + x<sub>31</sub> + x<sub>41</sub>  ≥ 2000 <br />	
 x<sub>12</sub> + x<sub>22</sub> + x<sub>32</sub> + x<sub>42</sub>  ≥20000 <br />
@@ -38,16 +38,16 @@ x<sub>114</sub> + x<sub>214</sub> + x<sub>314</sub> + x<sub>414</sub>  ≥3000 <
 x<sub>115</sub> + x<sub>215</sub> + x<sub>315</sub> + x<sub>415</sub>  ≥1000 <br />
 <br /> <br />
 
-Supply	s_i where i=1,2,3,4
-1. 200000	2. 100000	3. 50000	4. 50000
+Supply	s<sub>i</sub> &emsp; where i=1,2,3,4
+1. 200000	&emsp; 2. 100000	&emsp; 3. 50000	&emsp; 4. 50000
 
-x_11+ x_12+x_13+x_14+x_15+x_16+x_17+x_18+x_19+x_110+x_111+x_112+x_113+x_114+x_115  ≤200000 
+x<sub>11</sub> + x<sub>12</sub> + x<sub>13</sub> + x<sub>14</sub> + x<sub>15</sub> + x<sub>16</sub> + x<sub>17</sub> + x<sub>18</sub> + x<sub>19</sub> + x<sub>110</sub> + x<sub>111</sub> + x<sub>112</sub> + x<sub>113</sub> + x<sub>114</sub> + x<sub>115</sub>  ≤ 200000 <br /> 
 
-x_21+ x_22+x_23+x_24+x_25+x_26+x_27+x_28+x_29+x_210+x_211+x_212+x_213+x_214+x_215  ≤100000 
+x<sub>21</sub> + x<sub>22</sub> + x<sub>23</sub> + x<sub>24</sub> + x<sub>25</sub> + x<sub>26</sub> + x<sub>27</sub> + x<sub>28</sub> + x<sub>29</sub> + x<sub>210</sub> + x<sub>211</sub> + x<sub>212</sub> + x<sub>213</sub> + x<sub>214</sub> + x<sub>215</sub>  ≤ 100000 <br /> 
 
-x_31+x_32+x_33+x_34+x_35+x_36+x_37+x_38+x_39+x_310+x_311+x_312+x_313+x_314+x_315  ≤50000 
+x<sub>31</sub> +x<sub>32</sub> + x<sub>33</sub> + x<sub>34</sub> + x<sub>35</sub> + x<sub>36</sub> + x<sub>37</sub> + x<sub>38</sub> + x<sub>39</sub> + x<sub>310</sub> + x<sub>311</sub> + x<sub>312</sub> + x<sub>313</sub> + x<sub>314</sub> + x<sub>315</sub> ≤ 50000 <br /> 
 
-x_41+ x_42+x_43+x_44+x_45+x_46+x_47+x_48+x_49+x_410+x_411+x_412+x_413+x_414+x_415  ≤50000 
+x<sub>41</sub> + x<sub>42</sub> + x<sub>43</sub> + x<sub>44</sub> + x<sub>45</sub> + x<sub>46</sub> + x<sub>47</sub> + x<sub>48</sub> + x<sub>49</sub> + x<sub>410</sub> + x<sub>411</sub> + x<sub>412</sub> + x<sub>413</sub> + x<sub>414</sub> + x<sub>415</sub> ≤ 50000 <br /> 
 
 
 ## Objective
