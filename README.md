@@ -51,23 +51,23 @@ x<sub>41</sub> + x<sub>42</sub> + x<sub>43</sub> + x<sub>44</sub> + x<sub>45</su
 
 Minimize the distance of traveling from node i to j.
 
-Min z= ∑<sub>i</sub>∑<sub>j</sub>〖c<sub>ij</sub> x<sub>ij</sub> 〗 
+Min z= ∑<sub>i</sub>∑<sub>j</sub>c<sub>ij</sub> x<sub>ij</sub> 
 
-c_11=173 	c_21=271	c_31=126	c_41=166
-c_12=121 	c_22=169	c_32=247	c_42=256
-c_13=249 	c_23=299	c_33=108	c_43=346
-c_14=366 	c_24=416	c_34=221	c_44=463
-c_15=166 	c_25=263	c_35=98	c_45=270
-c_16=187 	c_26=285	c_36=174	c_46=121
-c_17=179 	c_27=136	c_37=394	c_47=310
-c_18=259 	c_28=213	c_38=253	c_48=380
-c_19=31 	c_29=98	c_39=278	c_49=171
-c_110=55 	c_210=131	c_310=207	c_410=175
-c_111=100 	c_211=26	c_311=339	c_411=231
-c_112=126 	c_212=134	c_312=270	c_412=257
-c_113=124 	c_213=222	c_313=199	c_413=77
-c_114=10 	c_214=107	c_314=240	c_414=132
-c_115=69 	c_215=166	c_315=210	c_415=101
+c<sub>11</sub>=173 	&emsp; c<sub>21</sub>=271	&emsp; c<sub>31</sub>=126	&emsp; c<sub>41</sub>=166 <br />
+c<sub>12</sub>=121 	&emsp; c<sub>22</sub>=169	&emsp; c<sub>32</sub>=247	&emsp; c<sub>42</sub>=256 <br />
+c<sub>13</sub>=249 	&emsp; c<sub>23</sub>=299	&emsp; c<sub>33</sub>=108	&emsp; c<sub>43</sub>=346 <br />
+c<sub>14</sub>=366 	&emsp; c<sub>24</sub>=416	&emsp; c<sub>34</sub>=221	&emsp; c<sub>44</sub>=463 <br />
+c<sub>15</sub>=166 	&emsp; c<sub>25</sub>=263	&emsp; c<sub>35</sub>=98	&emsp; c<sub>45</sub>=270 <br />
+c<sub>16</sub>=187 	&emsp; c<sub>26</sub>=285	&emsp; c<sub>36</sub>=174	&emsp; c<sub>46</sub>=121 <br />
+c<sub>17</sub>=179 	&emsp; c<sub>27</sub>=136	&emsp; c<sub>37</sub>=394	&emsp; c<sub>47</sub>=310 <br />
+c<sub>18</sub>=259 	&emsp; c<sub>28</sub>=213	&emsp; c<sub>38</sub>=253	&emsp; c<sub>48</sub>=380 <br />
+c<sub>19</sub>=31 	&emsp; c<sub>29</sub>=98	&emsp; c<sub>39</sub>=278	&emsp; c<sub>49</sub>=171 <br />
+c<sub>110</sub>=55 	&emsp; c<sub>210</sub>=131	&emsp; c<sub>310</sub>=207	&emsp; c<sub>410</sub>=175 <br />
+c<sub>111</sub>=100 &emsp; c<sub>211</sub>=26	&emsp; c<sub>311</sub>=339	&emsp; c<sub>411</sub>=231 <br />
+c<sub>112</sub>=126 &emsp; c<sub>212</sub>=134	&emsp; c<sub>312</sub>=270	&emsp; c<sub>412</sub>=257 <br />
+c<sub>113</sub>=124 &emsp; c<sub>213</sub>=222	&emsp; c<sub>313</sub>=199	&emsp; c<sub>413</sub>=77 <br />
+c<sub>114</sub>=10 	&emsp; c<sub>214</sub>=107	&emsp; c<sub>314</sub>=240	&emsp; c<sub>414</sub>=132 <br />
+c<sub>115</sub>=69 	&emsp; c<sub>215</sub>=166	&emsp; c<sub>315</sub>=210	&emsp; c<sub>415</sub>=101 <br />
 
 ## Formulation
 
