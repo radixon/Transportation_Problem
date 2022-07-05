@@ -6,6 +6,10 @@ East Food company has 4 warehouses that are in Savannah, Charleston, Columbus, a
 ![Table 5](https://user-images.githubusercontent.com/59415488/177019367-2a7b0766-eb58-48af-97eb-2a872352c340.jpg)
 ![Table 6](https://user-images.githubusercontent.com/59415488/177019370-2f43e3e8-379e-4430-aec0-c6200a151660.jpg)
 
+## Problem Formation
+
+The transportation proble decides from which supplier to which retailer and the quantity to transport. <br />
+![Pic 001](https://user-images.githubusercontent.com/59415488/177240184-b156a520-df10-4d57-add2-999cf3fd14f8.jpg)
 
 ## Variables
 
@@ -17,9 +21,13 @@ Retailers	j=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
   ..5. Macon	&emsp;	6. Valdosta	&emsp;	7. Florence	&emsp;	8. Greenville
   ..9. Hilton Head	&emsp; 10. Statesboro	&emsp; 11. Summerville	&emsp; 12. Aikens
   ..13. Waycross	&emsp; 14. Pooler		&emsp; 15. Jessup
-
+  
+![Pic 002](https://user-images.githubusercontent.com/59415488/177240325-b893c4db-573a-4279-b28a-dbcb4b54cbd7.jpg)
 <br /> <br />
 ## Constraints
+Constraints are formed for every demand node and supply node. The are of the following form: <br />
+Demand Node: &emsp; ∑<sub>i</sub><sup>n</sup>x<sub>ij</sub> ≥ d<sub>j</sub>
+
 
 Demand	d<sub>j</sub> where j=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
 ..1. 2000	&emsp; 2. 20000	&emsp; 3. 49000	&emsp; 4. 18000	&emsp; 5. 16000
