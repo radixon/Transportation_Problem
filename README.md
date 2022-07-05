@@ -27,7 +27,9 @@ Retailers	j=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
 ## Constraints
 Constraints are formed for every demand node and supply node. The are of the following form: <br />
 Demand Node: &emsp; ∑<sub>i</sub><sup>n</sup>x<sub>ij</sub> ≥ d<sub>j</sub>
-
+Supply Node: &emsp; ∑<sub>j</sub><sup>m</sup>x<sub>ij</sub> ≤ s<sub>i</sub>
+![Pic 003](https://user-images.githubusercontent.com/59415488/177241372-39ee88d2-2f6a-48c7-b492-805c4861520a.jpg)
+![Pic 004](https://user-images.githubusercontent.com/59415488/177241380-2e23df24-306d-489f-948e-1c4ba77ab53d.jpg)
 
 Demand	d<sub>j</sub> where j=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
 ..1. 2000	&emsp; 2. 20000	&emsp; 3. 49000	&emsp; 4. 18000	&emsp; 5. 16000
