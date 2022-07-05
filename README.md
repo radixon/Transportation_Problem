@@ -26,8 +26,6 @@ Retailers	j=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
 <br /> <br />
 ## Constraints
 Constraints are formed for every demand node and supply node. The are of the following form: <br />
-Demand Node: &emsp; ∑<sub>i</sub><sup>n</sup>x<sub>ij</sub> ≥ d<sub>j</sub> <br />
-Supply Node: &emsp; ∑<sub>j</sub><sup>m</sup>x<sub>ij</sub> ≤ s<sub>i</sub> <br />
 ![Pic 003](https://user-images.githubusercontent.com/59415488/177241372-39ee88d2-2f6a-48c7-b492-805c4861520a.jpg)
 ![Pic 004](https://user-images.githubusercontent.com/59415488/177241380-2e23df24-306d-489f-948e-1c4ba77ab53d.jpg)
 
@@ -64,7 +62,7 @@ x<sub>41</sub> + x<sub>42</sub> + x<sub>43</sub> + x<sub>44</sub> + x<sub>45</su
 
 ## Objective
 
-Minimize the distance of traveling from node i to j.
+The objective of the transportation problem is to minimize total cost.  Cost can be the travel cost or travel distance.  This problem specifically looks to minimize the distance of traveling from node i to node j. <br />
 
 Min z= ∑<sub>i</sub>∑<sub>j</sub>c<sub>ij</sub> x<sub>ij</sub> 
 
@@ -85,7 +83,8 @@ c<sub>114</sub>=10 	&emsp; c<sub>214</sub>=107	&emsp; c<sub>314</sub>=240	&emsp;
 c<sub>115</sub>=69 	&emsp; c<sub>215</sub>=166	&emsp; c<sub>315</sub>=210	&emsp; c<sub>415</sub>=101 <br />
 
 ## Formulation
-
+![Pic 005](https://user-images.githubusercontent.com/59415488/177241826-f1dcaf45-fa47-4aa0-adb9-fcb87b60f043.jpg)
+<br />
 Min z = 173x<sub>11</sub> + 121x<sub>12</sub> + 249x<sub>13</sub> + 366x<sub>14</sub> + 166x<sub>15</sub> + 187x<sub>16</sub> + 179x<sub>17</sub> + 259x<sub>18</sub> + 31x<sub>19</sub> + 55x<sub>110</sub> + 100x<sub>111</sub> + 126x<sub>112</sub> + 124x<sub>113</sub> + 10x<sub>114</sub> + 69x<sub>115</sub> + 271x<sub>21</sub> + 169x<sub>22</sub> + 299x<sub>23</sub> + 416x<sub>24</sub> + 263x<sub>25</sub> + 285x<sub>26</sub> + 136x<sub>27</sub> + 213x<sub>28</sub> + 98x<sub>29</sub> + 131x<sub>210</sub> + 26x<sub>211</sub> + 134x<sub>212</sub> + 222x<sub>213</sub> + 107x<sub>214</sub> + 166x<sub>215</sub> + 126x<sub>31</sub> + 247x<sub>32</sub> + 108x<sub>33</sub> + 221x<sub>34</sub> + 98x<sub>35</sub> + 174x<sub>36</sub> + 394x<sub>37</sub> + 253x<sub>38</sub> + 278x<sub>39</sub> + 207x<sub>310</sub> +
         339x<sub>311</sub> + 270x<sub>312</sub> + 199x<sub>313</sub> + 240x<sub>314</sub> + 210x<sub>315</sub> + 166x<sub>41</sub> + 256x<sub>42</sub> + 346x<sub>43</sub> + 463x<sub>44</sub> + 270x<sub>45</sub> + 121x<sub>46</sub> + 310x<sub>47</sub> + 380x<sub>48</sub> + 171x<sub>49</sub> + 175x<sub>410</sub> +   231x<sub>411</sub> + 257x<sub>412</sub> + 77x<sub>413</sub> + 132x<sub>414</sub> + 101x<sub>415</sub><br />
 
@@ -111,3 +110,5 @@ x<sub>114</sub> + x<sub>214</sub> + x<sub>314</sub> + x<sub>414</sub>  ≥3000 <
 x<sub>115</sub> + x<sub>215</sub> + x<sub>315</sub> + x<sub>415</sub>  ≥1000 <br />
 x<sub>11</sub>, x<sub>12</sub>, x<sub>13</sub>, x<sub>14</sub>, x<sub>15</sub>, x<sub>16</sub>, x<sub>17</sub>, x<sub>18</sub>, x<sub>19</sub>, x<sub>110</sub>, x<sub>111</sub>, x<sub>112</sub>, x<sub>113</sub>, x<sub>114</sub>, x<sub>115</sub>, x<sub>21</sub>, x<sub>22</sub>, x<sub>23</sub>, x<sub>24</sub>, x<sub>25</sub>, x<sub>26</sub>, x<sub>27</sub>, x<sub>28</sub>, x<sub>29</sub>, x<sub>210</sub>, x<sub>211</sub>, x<sub>212</sub>, x<sub>213</sub>, x<sub>214</sub>, x<sub>215</sub>, x<sub>31</sub>, x<sub>32</sub>, x<sub>33</sub>, x<sub>34</sub>, x<sub>35</sub>, x<sub>36</sub>, x<sub>37</sub>, x<sub>38</sub>, x<sub>39</sub>, x<sub>310</sub>, x<sub>311</sub>, x<sub>312</sub>, x<sub>313</sub>, x<sub>314</sub>, x<sub>315</sub>, x<sub>41</sub>, x<sub>42</sub>, x<sub>43</sub>, x<sub>44</sub>, x<sub>45</sub>, x<sub>46</sub>, x<sub>47</sub>, x<sub>48</sub>, x<sub>49</sub>, x<sub>410</sub>, x<sub>411</sub>, x<sub>412</sub>, x<sub>413</sub>, x<sub>414</sub>, x<sub>415</sub>   ≥ 0  
 
+From the Jupyter Notebook the solution is as follows: <br />
+![Pic 006](https://user-images.githubusercontent.com/59415488/177242110-b1e67184-595c-42da-b849-51cf6649f537.jpg)
