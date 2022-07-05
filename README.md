@@ -8,7 +8,7 @@ East Food company has 4 warehouses that are in Savannah, Charleston, Columbus, a
 
 ## Problem Formation
 
-The transportation proble decides from which supplier to which retailer and the quantity to transport. <br />
+The transportation problem decides from which supplier to which retailer and the quantity to transport. <br />
 ![Pic 001](https://user-images.githubusercontent.com/59415488/177240184-b156a520-df10-4d57-add2-999cf3fd14f8.jpg)
 
 ## Variables
